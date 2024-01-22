@@ -1,35 +1,33 @@
 ---
-title: "Hugo Community Modules"
-date: "2021-11-22T23:53:44+01:00"
+title: "Insightiva Community"
+date: "2023-10-22T23:53:44+01:00"
 draft: false
-description: "Hugo Community Mods"
+description: "Insightiva Community"
 ---
 
-Welcome! This page is all about user-friendly modules for [Hugo](https://gohugo.io/), a fast static site generator.
-The [hugo-mods organization](https://github.com/hugo-mods/) is where all the repos are!
+Welcome to [InsightBotics](https://www.insightbotics.com/), founded in 2023 with the advent of artificial intelligence [ChatGPT](https://chat.openai.com/). Our mission is to automate and optimize diverse domains, allowing talented professionals to collaborate remotely and bring their ideas to life!
 
-Below you can find all currently available modules which you can easily use to power up your site or theme.
-Fun fact: The entire page makes use of the modules itself, showing you how they look fully integrated!
+For more information or to get in touch with our coordinator, please visit [LinkedIn](https://www.linkedin.com/in/taiwanfifi/)
 
 {{< term >}}
 lines:
     - type: input
-      data: hugo mod init github.com/username/your-repo
+      data: autogen.generate_summary(text)
       wait: 500
-    - data: "go: creating new go.mod: module github.com/username/your-repo"
+    - data: "Generated a summary: 'The text discusses various aspects of autogeneration'"
     - type: input
-      data: $EDITOR config.yaml
+      data: chatbot.interact(user_input)
     - data: '[[module.imports]]'
-    - data: 'path = "github.com/hugo-mods/icons"'
+    - data: 'response = "How can I assist you today?"'
     - type: input
-      data: hugo mod get -u
+      data: AI Market Insights
       wait: 500
-    - data: "hugo: downloading modules …"
+    - data: "report: Crawling international policy datas …"
     #- type: progress
     #  data: 100
     #  wait: 200
-    - data: "✓ hugo: collected modules in 3372 ms"
+    - data: "✓ fast: collected modules in 3372 ms"
       wait: 0
 {{</ term >}}
 
-Made with {{< icon "heart" >}} by [kdevo](https://kdevo.github.io/).
+Explore Global Market Insights{{< icon "heart" >}} with [Insightiva](https://insightiva.github.io/).

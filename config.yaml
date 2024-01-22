@@ -1,4 +1,4 @@
-title: "Hugo Community Modules"
+title: "AI - Insightbotics"
 baseURL: "https://www.insightbotics.com/"
 languageCode: "en-US"
 theme: "github.com/kdevo/osprey-delight"
@@ -32,7 +32,7 @@ Params:
   #tagline: "Welcome!"
   # mdTagline can be used instead to specify the tagline in Markdown for more customizability.
   # Note that {cursor} is a placeholder and will be replaced by the actual cursor HTML when rendering.
-  mdTagline: "## hugo mod get -u{cursor}"
+  mdTagline: "## AI GPT / ESGreport / Insights {cursor}"
   theme: "hugo-mods"
   favicon: "logo.png"
 
@@ -49,9 +49,9 @@ Params:
 ## Social links in footer:
   Social:
   - type: github
-    url: "https://github.com/hugo-mods/"
+    url: "https://github.com/Insightiva"
   - type: heart
-    url: "https://github.com/sponsors/kdevo"
+    url: "https://www.104.com.tw/company/1a2x6bms5y"
 
 ## Theme features:
   Feat:
