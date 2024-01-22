@@ -1,4 +1,4 @@
-module github.com/hugo-mods/hugo-mods.github.io
+module github.com/Insightiva/insightbotics
 
 go 1.17
 
